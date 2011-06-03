@@ -1,3 +1,23 @@
+libpbc (0.5.12) unstable; urgency=low
+
+  * GIT DIFF STAT (from 0.5.10 to 0.5.12):
+  *  Makefile.am             |    2 +-
+  *  NEWS                    |    8 +++++
+  *  configure.ac            |   44 +++++++++++++++++++++++++-
+  *  debian/.gitignore       |    1 +
+  *  debian/changelog        |   79 +++++++++++++++++++++++++++++++++++++++++++++++
+  *  debian/control          |    8 ++--
+  *  debian/copyright        |    6 ++--
+  *  debian/mv_things.sh     |    8 +++-
+  *  doc/preface.txt         |    2 +-
+  *  doc/quickstart.txt      |   25 ++++++++------
+  *  ecc/param.c             |   17 ++++------
+  *  guru/param_parse_test.c |   26 +++++++++++++++
+  *  makedeb.sh              |    8 -----
+  *  13 files changed, 192 insertions(+), 42 deletions(-)
+
+ -- Paul Miller <jettero@cpan.org>  Fri, 03 Jun 2011 08:28:31 -0400
+
 libpbc (0.5.10) unstable; urgency=low
 
   * GIT DIFF STAT (from 0.5.9 to 0.5.10):
